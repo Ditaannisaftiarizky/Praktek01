@@ -5,10 +5,21 @@
  */
 package praktek01;
 
+import static java.time.Clock.system;
+
 /**
  *
  * @author ditaa
  */
 public class Makeup {
+    String merek;
+    String produk;
+    String harga;
     
+    void cetakInfo(){
+        System.out.println("Merek   :"+merek);
+        System.out.println("Produk   :"+produk);
+        System.out.println("Harga   :"+harga);
+        
+    }
 }
