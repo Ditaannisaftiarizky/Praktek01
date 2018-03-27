@@ -11,6 +11,7 @@ package praktek01;
  */
 public class MakeupAksi {
     public static void main(String[] args) {
+        Makeup Wardah = new Makeup();
         
     }
          
