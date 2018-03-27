@@ -13,6 +13,10 @@ public class MakeupAksi {
     public static void main(String[] args) {
         Makeup Wardah = new Makeup();
         
+        Wardah.merek="Wardah";
+        Wardah.produk="Lipstik";
+        Wardah.harga="Rp. 50000";
+        
     }
          
 }
