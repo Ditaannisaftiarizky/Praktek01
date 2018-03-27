@@ -17,6 +17,9 @@ public class MakeupAksi {
         Wardah.produk="Lipstik";
         Wardah.harga="Rp. 50000";
         
+        Wardah.cetakInfo();
+       
+        
     }
          
 }
