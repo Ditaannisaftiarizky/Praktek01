@@ -14,11 +14,15 @@ import static java.time.Clock.system;
 public class Makeup {
     String merek;
     String produk;
+    String warna;
+    String bahan;
     String harga;
     
     void cetakInfo(){
         System.out.println("Merek   :"+merek);
-        System.out.println("Produk   :"+produk);
+        System.out.println("Produk  :"+produk);
+        System.out.println("Warna   :"+warna);
+        System.out.println("Bahan   :"+bahan);
         System.out.println("Harga   :"+harga);
         
     }
